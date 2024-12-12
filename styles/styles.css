@@ -223,3 +223,41 @@ footer {
     margin-bottom: 5px;
   }
 }
+
+@media (max-width: 375px) {
+  body {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+
+    header {
+      padding-bottom: 20px;
+    }
+    #showcase .container h1 {
+      font-size: 2.5em;
+      margin-top: 40px;
+    }
+  }
+
+  #newsletter button,
+  .quote button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"],
+  .quote input,
+  .quote textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
